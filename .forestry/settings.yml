@@ -13,11 +13,11 @@ sections:
   - post
 - type: heading
   label: Content
-- type: heading
-  label: Globals
 - type: document
   path: src/_data/tokens.json
   label: Theme settings
+- type: heading
+  label: Globals
 upload_dir: src/images
 public_path: "/images"
 front_matter_path: ''
