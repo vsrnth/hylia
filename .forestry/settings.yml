@@ -27,7 +27,7 @@ build:
   preview_env:
   - ELEVENTY_ENV=staging
   preview_output_directory: dist
-  install_dependencies_command: npm install --save @11ty/eleventy
+  install_dependencies_command: " npm install -g @11ty/eleventy"
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
   working_dir: "/srv/src"
