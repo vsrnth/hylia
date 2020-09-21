@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: src/_data/tokens.json
+  label: Theme settings
 - type: directory
   path: src/posts
   label: Posts
@@ -13,9 +16,6 @@ sections:
   - post
 - type: heading
   label: Content
-- type: document
-  path: src/_data/tokens.json
-  label: Theme settings
 - type: heading
   label: Globals
 upload_dir: src/images
